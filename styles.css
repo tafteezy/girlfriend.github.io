@@ -19,7 +19,7 @@ body {
 }
 
 .button {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
@@ -40,16 +40,9 @@ body {
 }
 
 .gif_container {
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
-}
-
-#enter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
 }
 
 #noButton {
@@ -65,6 +58,7 @@ body {
 /* Adjustments for smaller screens */
 @media screen and (max-width: 768px) {
     body {
+        display:block;
         padding: 10px; /* Reduce padding for smaller screens */
     }
     
